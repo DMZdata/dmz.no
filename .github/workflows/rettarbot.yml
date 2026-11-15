@@ -1,0 +1,14 @@
+name: Rettarbot
+
+on:
+  push:
+    branches: [develop, main]
+  pull_request:
+    branches: [develop, main]
+
+permissions:
+  contents: read
+
+jobs:
+  rettarbot:
+    uses: DMZdata/Rettarbot/.github/workflows/sjekk.yml@main
