@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "svelte": "^5.57.3",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }
